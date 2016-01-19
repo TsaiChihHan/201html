@@ -168,4 +168,13 @@ html, body {
       .education h1{
 	text-align:center;
       }
+      .js button {
+	margin: auto;
+      }
+      .education img{
+	height: 150px;
+	float: left;
+	margin: 20px 50px;
+	padding: 10px;
+      }
 
