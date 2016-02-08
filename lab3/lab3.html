@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0/angular.min.js"></script>
+  <meta charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="lab3.css">
+  <script src="lab3.js"></script>
+
+  <link href='lab3.js'>
+  <title>User Avatar Template</title>
+</head>
+<body>
+  <div ng-app='app' ng-controller='mainCtrl'>
+    <div class='userForm'>
+    <h1>Create new user</h1>
+    <form name='userForm' ng-submit='addNew(userForm)'>
+      <input placeholder='Name' ng-model='userForm.name'/>
+      <input placeholder='Image Url' ng-model='userForm.url'/>
+      <button type='submit'>Add New</button>
+    </form>
+    </div>
+    <ul class='User-list'>
+      <li ng-repeat= 'user in users'>
+       <avatar user='user' />
+      </li>
+    </ul>  
+  </div>
+</body>
+</html>

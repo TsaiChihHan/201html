@@ -1,0 +1,71 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background:rgb(26, 163, 255);
+}
+
+input {
+	border:2px solid #456879;
+	border-radius:10px;
+	height: 22px;
+	width: 230px;
+    margin: 2px;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  width: 230px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  width: 230px;
+}
+
+.userForm {
+  width: 250px;
+  margin: 50px auto;
+}
+
+.User-list {
+  list-style: none;
+}
+
+.Avatar {
+  text-align: center;
+  display: block;
+  float: left;
+  margin: 20px;
+}
+
+.Avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.Avatar h4 {
+  text-transform: capitalize;
+  color: white;
+}
