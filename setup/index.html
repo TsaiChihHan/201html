@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="News">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <link rel="stylesheet" src="game.css">
+  <title>Snake</title>
+</head>
+<body ng-controller="MainCtrl">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">HTML GAME</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a ui-sref="home">Home</a></li>
+          <li><a ui-sref="game">Snake</a></li>
+          <li><a ui-sref="score">HTML Tag Game</a></li>
+        </ul>
+        <ul class="nav navbar-nav right">
+          <li class="right"><a>{{name}}</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <ui-view></ui-view>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="//angular-ui.github.io/ui-router/release/angular-ui-router.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

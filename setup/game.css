@@ -1,0 +1,49 @@
+.center {
+  text-align: center;
+}
+
+.right {
+  position: absolute;
+  right: 10px;
+}
+
+.left {
+  text-align: left;
+}
+
+#quizContainer {
+  background-color: #408AD2;
+  min-height : 20em;
+}
+
+#nextButton {
+  position: relative;
+  float: right;
+}
+iframe {
+  height:450px;
+  width: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  iframe{
+    min-width:768px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+  iframe{
+    min-width:992px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+  iframe{
+    min-width:1200px;
+    }
+}
+
+.container-fluid {
+  -webkit-align-self: center; /* Safari 7.0+ */
+  align-self: center;
+}
