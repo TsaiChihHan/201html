@@ -12,7 +12,7 @@ app.config([
        "<div class='container-fluid'>\
           <div class='row center'>\
             <div class='col-md-6 col-md-offset-3'>\
-              <h1>Please, enter your name<h1>\
+              <h1>Type in the name of the Pokemon<h1>\
               <form ng-submit='submitName()' style = 'margin-top30px;'>\
                 <input type='text' ng-model='formContent'></input>\
                 <button type='submit'>Submit</button>\
