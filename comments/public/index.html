@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comments!</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="javascripts/comments.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+<h1 class="col-sm-offset-2">Lab5 MongoDB</h1>
+<form class="form-horizontal" id="commentForm" action="">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="name">Name: </label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="Name" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="comment">comment: </label>
+    <div class="col-sm-10">
+      <input class="form-control" type="text" id="Comment" placeholder="Comment"><br>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-2">
+      <button class="btn btn-primary" id="serialize">Serialize form values</button>
+    </div>
+    <div class="col-sm-8">
+      <button class="btn btn-primary" id="getThem">Get Comments</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-2 col-sm-10" id="json"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-offset-2 col-sm-10" id="done"></div>
+  </div>
+  <div id="comments"></div>
+</form>
+<!--
+<button id="serialize">Serialize form values</button>
+<button id="getThem">Get Comments</button>
+-->
+</div>
+</body>
+</html>
